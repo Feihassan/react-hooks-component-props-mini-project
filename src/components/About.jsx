@@ -1,6 +1,5 @@
-import React from "react";
-
-function About({ image = "https://via.placeholder.com/215", about }) {
+// components/About.jsx
+function About({ image = "https://via.placeholder.com/215", about = "This is my blog" }) {
   return (
     <aside>
       <img src={image} alt="blog logo" />
